@@ -1,3 +1,5 @@
+/* (C) 2025 
+ Trip Planner App*/
 package com.trip_planner.app.models.dtos;
 
 import lombok.*;
@@ -7,7 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @RequiredArgsConstructor
 public class UserFormDto {
-    private String email;
-    private String password;
-    private String fullName;
+  private String email;
+  private String password;
+  private String fullName;
 }

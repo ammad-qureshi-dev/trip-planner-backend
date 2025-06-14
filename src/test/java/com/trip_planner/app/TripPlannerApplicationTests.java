@@ -1,3 +1,5 @@
+/* (C) 2025 
+ Trip Planner App*/
 package com.trip_planner.app;
 
 import org.junit.jupiter.api.Test;
@@ -8,8 +10,6 @@ import org.springframework.test.context.ActiveProfiles;
 @SpringBootTest
 class TripPlannerApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+  @Test
+  void contextLoads() {}
 }

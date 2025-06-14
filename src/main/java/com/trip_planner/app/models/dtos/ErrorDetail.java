@@ -1,3 +1,5 @@
+/* (C) 2025 
+ Trip Planner App*/
 package com.trip_planner.app.models.dtos;
 
 import com.trip_planner.app.models.enums.ErrorType;
@@ -10,13 +12,12 @@ import lombok.Data;
 @Builder
 @AllArgsConstructor
 public class ErrorDetail {
-    private ErrorType errorType;
-    private String message;
-    private Severity severity;
+  private ErrorType errorType;
+  private String message;
+  private Severity severity;
 
-    @Override
-    public String toString() {
-        return "[" + getSeverity() + "] " + getErrorType() + ": " + getMessage();
-    }
-
+  @Override
+  public String toString() {
+    return "[" + getSeverity() + "] " + getErrorType() + ": " + getMessage();
+  }
 }

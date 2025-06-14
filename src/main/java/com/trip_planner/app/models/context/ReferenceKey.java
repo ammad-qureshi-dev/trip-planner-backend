@@ -1,15 +1,16 @@
+/* (C) 2025 
+ Trip Planner App*/
 package com.trip_planner.app.models.context;
 
+import java.lang.reflect.Type;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-
-import java.lang.reflect.Type;
 
 @Data
 @AllArgsConstructor
 @Builder
 public class ReferenceKey<T> {
-    private final String name;
-    private final Type type;
+  private final String name;
+  private final Type type;
 }
