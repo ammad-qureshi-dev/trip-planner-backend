@@ -3,7 +3,7 @@ spring:
     jdbc:
       initialize-schema: always
   datasource:
-    url: jdbc:postgresql://${HOST}}:${PORT}/${NAME}
+    url: jdbc:postgresql://${HOST}:${PORT}/${NAME}
     username: ${USER_RW}
     password: ${PWD_RW}
     driver-class-name: org.postgresql.Driver

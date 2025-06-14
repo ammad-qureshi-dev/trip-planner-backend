@@ -7,9 +7,8 @@ spring:
     username: ${USER_RW}
     password: ${PWD_RW}
     driver-class-name: org.postgresql.Driver
-
   jpa:
-    show-sql: false
+    show-sql: true
     hibernate:
       ddl-auto: update
       naming:
