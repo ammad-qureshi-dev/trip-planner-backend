@@ -1,14 +1,15 @@
+/* (C) 2025 
+ Trip Planner App*/
 package com.trip_planner.app.models;
 
 import com.trip_planner.app.models.enums.AlertType;
 import jakarta.persistence.*;
+import java.time.LocalDateTime;
+import java.util.UUID;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.time.LocalDateTime;
-import java.util.UUID;
 
 @Data
 @Builder
@@ -18,15 +19,15 @@ import java.util.UUID;
 @Table(name = "alert")
 public class Alert {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID id;
-    private AlertType alertType;
-    private String description;
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  private UUID id;
 
-    @ManyToOne
-    private User user;
+  private AlertType alertType;
+  private String description;
 
-    private Object formData;
-    private LocalDateTime dateSent;
+  @ManyToOne private User user;
+
+  private Object formData;
+  private LocalDateTime dateSent;
 }
