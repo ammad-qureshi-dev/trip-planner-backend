@@ -14,7 +14,6 @@ import lombok.*;
 @Entity
 @Table(name = "user", schema = "TRIP_PLANNER")
 public class User extends BaseEntity {
-
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private UUID id;

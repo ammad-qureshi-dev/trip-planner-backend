@@ -9,7 +9,8 @@ import lombok.*;
 @AllArgsConstructor
 @RequiredArgsConstructor
 public class UserFormDto {
+  @Setter private String password;
   private String email;
-  private String password;
   private String fullName;
+  private boolean isVerified;
 }
