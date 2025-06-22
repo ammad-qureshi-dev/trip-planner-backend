@@ -1,6 +1,6 @@
 /* (C) 2025 
  Trip Planner App*/
-package com.trip_planner.app.controllers;
+package com.trip_planner.app.controllers.response;
 
 import static com.trip_planner.app.models.context.ContextKey.General.APPLICATION_ERRORS;
 

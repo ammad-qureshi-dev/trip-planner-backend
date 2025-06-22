@@ -4,6 +4,7 @@ package com.trip_planner.app.controllers;
 
 import static com.trip_planner.app.utils.Constants.Controllers.BASE_URI;
 
+import com.trip_planner.app.controllers.response.ServiceResponse;
 import com.trip_planner.app.models.context.ApplicationContext;
 import com.trip_planner.app.models.dtos.UserFormDto;
 import com.trip_planner.app.services.AuthorizationService;

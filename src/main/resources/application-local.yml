@@ -7,7 +7,6 @@ spring:
     username: ${USER_RW}
     password: ${PWD_RW}
     driver-class-name: org.postgresql.Driver
-
   jpa:
     show-sql: false
     hibernate:
@@ -19,6 +18,6 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 server:
-  port: 8080
+  port: 8090
   error:
     include-message: always
